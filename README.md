@@ -2,13 +2,20 @@
 
 Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio.
 
-Link do Padlet: [Evidence](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
+Link do Padlet: [https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
 
 ## 1. Introdução
 
 ***1.1. Nome do Grupo***
 
-Indicar o nome e github dos integrantes do grupo
+**DevCaverna**
+
+**Integrantes:**
+- [@KawanKakubo](https://github.com/KawanKakubo) — Kawan Harshe Kakubo
+- [@OtavioGonzaga](https://github.com/OtavioGonzaga) — Otavio Luiz Gonzaga
+- [@reimuh](https://github.com/reimuh) — André Born
+- [@tavinhoo](https://github.com/tavinhoo) — Otávio
+- [@Vinicius-Antonio](https://github.com/Vinicius-Antonio) — Vinicius Antonio
 
 ***1.2. Nome do Sistema***
 
@@ -60,7 +67,7 @@ Os profissionais jurídicos gastam horas analisando documentos e processos, freq
 
 ***Cenário: Depois***
 
-Com o Evidence, os profissionais cadastraram os dados no sistema e, em poucos minutos, recebem relatórios e insights baseados em IA, otimizando tempo e aumentando a precisão de suas decisões jurídicas.
+Com o Evidence, os profissionais cadastram os dados no sistema e, em poucos minutos, recebem relatórios e insights baseados em IA, otimizando tempo e aumentando a precisão de suas decisões jurídicas.
 
 ## 2. Documentos gerais no repositório
 
@@ -105,6 +112,10 @@ Com o Evidence, os profissionais cadastraram os dados no sistema e, em poucos mi
 **Viabilidade Operacional:**  
 O projeto é viável considerando a disponibilidade de tecnologias de inteligência artificial para análise de texto jurídico e plataformas de desenvolvimento de sistemas. Há também uma necessidade real de otimização de processos jurídicos, o que garante adesão do público-alvo.
 
+**Viabilidade Técnica:** 
+Quanto a viabilidade técnica, todos os aspectos são simples, com exceção da IA e do algoritmo de censura de dados sensíveis.
+Para a IA, será utilizado um serviço de terceiros (OpenAI, Cloude, etc.), e o algoritmo pode ser importado de bibliotecas abertas para garantir viabilidade e segurança.
+
 **Cronograma:**
 - Levantamento de Requisitos: 2 semanas
 - Análise e Modelagem: 2 semanas
@@ -119,5 +130,3 @@ Total: Aproximadamente 3 meses.
 Este projeto atende ao ODS 16 da ONU: Paz, Justiça e Instituições Eficazes, promovendo igualdade de acesso à justiça por meio de um sistema que gera decisões mais rápidas e justas com auxílio da tecnologia.
 
 ## Referências
-
-[1] Padlet do Projeto: [https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
