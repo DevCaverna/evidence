@@ -1,67 +1,76 @@
-
 # Projeto Disciplina: Requisitos de Software
 
-Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio. 
+Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio.
 
-Link do Padlet:
+Link do Padlet: [Evidence](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
 
 ## 1. Introdução
 
-***1.1.  Nome do Grupo***
+***1.1. Nome do Grupo***
 
 Indicar o nome e github dos integrantes do grupo
 
-***1.2.  Nome do Sistema***
+***1.2. Nome do Sistema***
 
-Indicar o nome do software proposto
+Evidence
 
-***1.3.  Propósito do Sistema***
+***1.3. Propósito do Sistema***
 
-Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela *`nome da empresa`*, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
+Este documento apresenta os requisitos dos usuários a serem desenvolvidos pela Evidence, fornecendo aos desenvolvedores as informações necessárias para o projeto e implementação, assim como para a realização dos testes e homologação do sistema.
 
-O objetivo do sistema `nome do sistema` é .... *<Descrever aqui o objetivo do sistema que será desenvolvido, principais características, benefícios, problemas que o sistema ajudará a resolver, o comportamento principal do sistema, etc.>*
+O objetivo do sistema Evidence é auxiliar advogados e peritos judiciais por meio do cadastro de informações sobre processos jurídicos e do upload de documentos, possibilitando que uma inteligência artificial gere relatórios e insights sobre os casos. O sistema ajudará a otimizar o tempo dos profissionais, aumentar a precisão das análises e garantir melhores resultados em processos judiciais.
 
-***1.2.  Público Alvo***
+***1.4. Público-Alvo***
 
-Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes... *<descrever aqui se existir mais interessados e que participarão do desenvolvimento do sistema>*
+Este documento se destina aos arquitetos de software, engenheiros de software, testadores, clientes e demais profissionais envolvidos no desenvolvimento do sistema Evidence.
 
-***1.3. Descrição dos usuários***
+***1.5. Descrição dos Usuários***
 
-*<Descrever quais os usuários finais do sistema (quem vai utilizar o sistema). Neste espaço vocês vão traçar um perfil de usuário, bem como as personas e análide de tarefas>*
+O sistema Evidence será utilizado por advogados, peritos judiciais e demais profissionais da área jurídica.
 
 ***Personas:***
 
-*<Imagem, arquivo (PDF), link com as Personas.>*
+Estudantes de Direito (fase inicial de entrevistas).
 
 ***Análise da situação atual: antes da introdução de sua solução***
 
-*`1. O que as pessoas fazem?`*
-*`2. Quais os artefatos envolvidos?`*
-*`3. O que elas precisam saber?`*
+- **O que as pessoas fazem?**  
+  Analisam manualmente documentos e dados jurídicos, o que pode ser demorado e sujeito a erros.
 
-***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução:***
+- **Quais os artefatos envolvidos?**  
+  Papéis físicos, documentos digitais não organizados, processos judiciais diversos.
 
-*`1. O que as pessoas fazem?`*
-*`2. Quais os artefatos envolvidos?`*
-*`3. O que elas precisam saber?`*
+- **O que elas precisam saber?**  
+  Entender o andamento de processos, identificar padrões, reunir informações relevantes.
+
+***Análise das tarefas depois: como serão executadas as suas tarefas com sua solução***
+
+- **O que as pessoas fazem?**  
+  Cadastram casos e documentos no sistema e analisam relatórios automáticos gerados pela IA.
+
+- **Quais os artefatos envolvidos?**  
+  Sistema Evidence, documentos digitais organizados e processados.
+
+- **O que elas precisam saber?**  
+  Como interpretar os insights e relatórios gerados automaticamente pelo sistema.
 
 ***Cenário: Antes***
 
-*<Preencher com o cenário idealizado antes da aplicação do seu sistema.>*
+Os profissionais jurídicos gastam horas analisando documentos e processos, frequentemente lidando com informações dispersas e sem auxílio de tecnologias inteligentes.
 
 ***Cenário: Depois***
 
-*<Preencher com o cenário idealizado depois da aplicação do seu sistema.>*
+Com o Evidence, os profissionais cadastraram os dados no sistema e, em poucos minutos, recebem relatórios e insights baseados em IA, otimizando tempo e aumentando a precisão de suas decisões jurídicas.
 
 ## 2. Documentos gerais no repositório
 
 ***2.1. Requisitos Funcionais***
 
-*<Link, imagem, arquivo com os requisitos funcionais.>*
+[Link para os requisitos funcionais](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
 
 ***2.2. Requisitos Não Funcionais***
 
-*<Link, imagem, arquivo com os requisitos não funcionais.>*
+[Link para os requisitos não funcionais](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
 
 ***2.3. Perguntas***
 
@@ -91,8 +100,24 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 
 *<Imagem, arquivo (PDF), link com Protótipo.>*
 
+## Estudo de Viabilidade
+
+**Viabilidade Operacional:**  
+O projeto é viável considerando a disponibilidade de tecnologias de inteligência artificial para análise de texto jurídico e plataformas de desenvolvimento de sistemas. Há também uma necessidade real de otimização de processos jurídicos, o que garante adesão do público-alvo.
+
+**Cronograma:**
+- Levantamento de Requisitos: 2 semanas
+- Análise e Modelagem: 2 semanas
+- Desenvolvimento Inicial: 4 semanas
+- Testes e Validações: 2 semanas
+- Ajustes Finais e Deploy: 2 semanas
+
+Total: Aproximadamente 3 meses.
+
+## Objetivos de Desenvolvimento Sustentável (ODS)
+
+Este projeto atende ao ODS 16 da ONU: Paz, Justiça e Instituições Eficazes, promovendo igualdade de acesso à justiça por meio de um sistema que gera decisões mais rápidas e justas com auxílio da tecnologia.
+
 ## Referências
 
-*<Esta seção é destinada à descrição das referências utilizadas pelo documento, como por exemplo, URLs e livros. Ver exemplo a seguir:>*
-
-[1] “Glossário da _USina_”, <_id_doc glossário_>, Versão <_versão_>. Localização: <_localização_>.
+[1] Padlet do Projeto: [https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
