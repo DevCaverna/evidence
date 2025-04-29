@@ -2,7 +2,7 @@
 
 Olá! Este repositório faz parte do projeto da disciplina de Requisitos de Software da UTFPR - Campus Cornélio Procópio.
 
-Link do Padlet: [https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
+Link do Padlet: [Evidence](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
 
 ## 1. Introdução
 
