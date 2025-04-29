@@ -73,11 +73,10 @@ Com o Evidence, os profissionais cadastram os dados no sistema e, em poucos minu
 
 ***2.1. Requisitos Funcionais***
 
-[Link para os requisitos funcionais](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
+
 
 ***2.2. Requisitos Não Funcionais***
 
-[Link para os requisitos não funcionais](https://padlet.com/kawanharshe/evidence-i6j1q27zigdgo0ue)
 
 ***2.3. Perguntas***
 
