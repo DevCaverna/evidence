@@ -36,8 +36,7 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 O sistema Evidence será utilizado por advogados, peritos judiciais e demais profissionais da área jurídica.
 
 ***Personas:***
-
-Estudantes de Direito (fase inicial de entrevistas).
+[Personas](https://docs.google.com/presentation/d/1YYZfL55h4tPPcmBAl2eHLfM5bUQdzJXbr-QaKhuznWY/edit?usp=sharing)
 
 ***Análise da situação atual: antes da introdução de sua solução***
 
@@ -73,10 +72,20 @@ Com o Evidence, os profissionais cadastram os dados no sistema e, em poucos minu
 
 ***2.1. Requisitos Funcionais***
 
-
+| Identificador | Descrição |
+|---------------|-----------|
+| **RF01** | O sistema deve permitir que o advogado cadastre informações básicas de um processo jurídico, incluindo número do processo, partes envolvidas e data de abertura. |
+| **RF02** | O sistema deve permitir que o perito judicial faça upload de documentos relacionados a um processo em formatos como PDF, DOCX e JPEG. |
+| **RF03** | O sistema deve permitir que o advogado consulte todos os processos cadastrados, filtrando por status ativo, arquivado e concluído. |
+| **RF04** | O sistema deve gerar relatórios automáticos sobre padrões em processos jurídicos, como tempo médio de resolução e tendências de decisões. |
+| **RF05** | O sistema deve enviar notificações para o advogado quando prazos processuais estiverem próximos de vencer. |
+| **RF06** | O sistema deve permitir que o advogado adicione anotações personalizadas a um processo, como observações sobre estratégias ou contatos relevantes. |
+| **RF07** | O sistema deve permitir que o perito judicial compartilhe documentos específicos com outros profissionais vinculados ao mesmo processo. |
+| **RF08** | O sistema deve garantir que a inteligência artificial analise documentos jurídicos e destaque trechos relevantes. |
+| **RF09** | O sistema deve permitir que o administrador gerencie permissões de acesso. |
+| **RF10** | O sistema deve exportar relatórios em formatos como PDF para uso em apresentações ou arquivamento. |
 
 ***2.2. Requisitos Não Funcionais***
-
 
 ***2.3. Perguntas***
 
