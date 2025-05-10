@@ -87,6 +87,19 @@ Com o Evidence, os profissionais cadastram os dados no sistema e, em poucos minu
 
 ***2.2. Requisitos Não Funcionais***
 
+ Identificador | Descrição | Depende de |
+|---------------|-----------|------------|
+| **RNF01** | O sistema deve integrar-se com APIs governamentais para validação e atualização automática de dados processuais. | RF01, RF03 |
+| **RNF02** | O sistema deve utilizar um banco de dados não relacional (NoSQL) para armazenar documentos, anotações e metadados de forma escalável. | RF02, RF06, RF08 |
+| **RNF03** | O sistema deve ser implementado com suporte à concorrência e alta performance, utilizando a linguagem Go para otimizar tarefas paralelas, como geração de relatórios e processamento de documentos. | RF02, RF04, RF05, RF08 |
+| **RNF04** | O sistema deve garantir alta disponibilidade (99,9%) para que os usuários possam acessá-lo a qualquer momento, especialmente em prazos críticos. | RF05, RF03 |
+| **RNF05** | As notificações de prazos devem ser entregues com latência inferior a 5 minutos, via e-mail e/ou push notification. | RF05 |
+| **RNF06** | O sistema deve permitir anotações com suporte a rich text (negrito, listas, links) e salvamento automático a cada 30 segundos. | RF06 |
+| **RNF07** | O compartilhamento de documentos entre profissionais deve respeitar permissões e criptografia ponta a ponta. | RF07, RF09 |
+| **RNF08** | A análise com inteligência artificial deve processar documentos com tempo de resposta inferior a 10 segundos por arquivo e exibir trechos destacados com precisão baseada em NLP jurídico. | RF08 |
+| **RNF09** | O sistema deve oferecer um painel de controle para o administrador gerenciar permissões de forma granular, com logs de acesso e histórico de alterações. | RF09 |
+| **RNF10** | Os relatórios exportados devem seguir padrões visuais consistentes (layout, cores, logotipo) e estar disponíveis nos formatos PDF e DOCX. | RF04, RF10 |
+
 ***2.3. Perguntas***
 
 *<Arquivo com as perguntas realizadas na entrevista .>*
