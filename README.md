@@ -36,7 +36,7 @@ Este documento se destina aos arquitetos de software, engenheiros de software, t
 O sistema Evidence será utilizado por advogados, peritos judiciais e demais profissionais da área jurídica.
 
 ***Personas:***
-[Personas](https://docs.google.com/presentation/d/1YYZfL55h4tPPcmBAl2eHLfM5bUQdzJXbr-QaKhuznWY/edit?usp=sharing)
+[Personas](https://www.canva.com/design/DAGmocIOSE4/01dDA-jb2goppFgMoq1PmA/edit?utm_content=DAGmocIOSE4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ***Análise da situação atual: antes da introdução de sua solução***
 
