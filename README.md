@@ -122,6 +122,18 @@ O que faria você confiar em uma ferramenta jurídica com inteligência artifici
 
 Você teria alguma preocupação ética ou legal em usar IA para lidar com processos judiciais?
 
+Como você organizaria um workspace envolvendo toda a sua equipe com a análise dos casos?
+
+Você tem dificuldades em encontrar informações em um conjunto extenso de documentações?
+
+Para você, o que é mais importante para organizar um caso?
+
+Nas principais áreas de direito em que você atua, quais as principais informações para os casos, em cada uma delas?
+
+Qual padrão você mais identifica, que mais se repete, nos casos em que trabalha?
+
+Quais informações devem ser imprescindivelmente ocultadas nos casos, considerando que as informações serão armazenadas pela IA?  
+
 ***2.4. Entrevista***
 
 *<Arquivo com as respostas do indivíduo entrevistado e link do drive com upload da gravação.>*
