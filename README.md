@@ -72,33 +72,34 @@ Com o Evidence, os profissionais cadastram os dados no sistema e, em poucos minu
 
 ***2.1. Requisitos Funcionais***
 
-| Identificador | Descrição |
-|---------------|-----------|
-| **RF01** | O sistema deve permitir que o advogado cadastre informações básicas de um processo jurídico, incluindo número do processo, partes envolvidas e data de abertura. |
-| **RF02** | O sistema deve permitir que o perito judicial faça upload de documentos relacionados a um processo em formatos como PDF, DOCX e JPEG. |
-| **RF03** | O sistema deve permitir que o advogado consulte todos os processos cadastrados, filtrando por status ativo, arquivado e concluído. |
-| **RF04** | O sistema deve gerar relatórios automáticos sobre padrões em processos jurídicos, como tempo médio de resolução e tendências de decisões. |
-| **RF05** | O sistema deve enviar notificações para o advogado quando prazos processuais estiverem próximos de vencer. |
-| **RF06** | O sistema deve permitir que o advogado adicione anotações personalizadas a um processo, como observações sobre estratégias ou contatos relevantes. |
-| **RF07** | O sistema deve permitir que o perito judicial compartilhe documentos específicos com outros profissionais vinculados ao mesmo processo. |
-| **RF08** | O sistema deve garantir que a inteligência artificial analise documentos jurídicos e destaque trechos relevantes. |
-| **RF09** | O sistema deve permitir que o administrador gerencie permissões de acesso. |
-| **RF10** | O sistema deve permitir que o advogado leia e aprove as ações dos estagiários. |
+| Identificador | Descrição                                                                                                                                                        | Prioridade     |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| **RF01**      | O sistema deve permitir que o advogado cadastre informações básicas de um processo jurídico, incluindo número do processo, partes envolvidas e data de abertura. | **Must**                 |
+| **RF02**      | O sistema deve permitir que o perito judicial faça upload de documentos relacionados a um processo em formatos como PDF, DOCX e JPEG.                            | **Must**                 |
+| **RF03**      | O sistema deve permitir que o advogado consulte todos os processos cadastrados, filtrando por status ativo, arquivado e concluído.                               | **Must**                 |
+| **RF04**      | O sistema deve gerar relatórios automáticos sobre padrões em processos jurídicos, como tempo médio de resolução e tendências de decisões.                        | **Should**               |
+| **RF05**      | O sistema deve enviar notificações para o advogado quando prazos processuais estiverem próximos de vencer.                                                       | **Should**               |
+| **RF06**      | O sistema deve permitir que o advogado adicione anotações personalizadas a um processo, como observações sobre estratégias ou contatos relevantes.               | **Could**                |
+| **RF07**      | O sistema deve permitir que o perito judicial compartilhe documentos específicos com outros profissionais vinculados ao mesmo processo.                          | **Could**                |
+| **RF08**      | O sistema deve garantir que a inteligência artificial analise documentos jurídicos e destaque trechos relevantes.                                                | **Won’t** |
+| **RF09**      | O sistema deve permitir que o administrador gerencie permissões de acesso.                                                                                       | **Must**                 |
+| **RF10**      | O sistema deve permitir que o advogado leia e aprove as ações dos estagiários.                                                                                   | **Should**               |
+
 
 ***2.2. Requisitos Não Funcionais***
+| Identificador | Descrição                                                                                                                                                                                           | Depende de             | Prioridade      |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ------------------------ |
+| **RNF01**     | O sistema deve integrar-se com APIs governamentais para validação e atualização automática de dados processuais.                                                                                    | RF01, RF03             | **Should**               |
+| **RNF02**     | O sistema deve utilizar um banco de dados não relacional (NoSQL) para armazenar documentos, anotações e metadados de forma escalável.                                                               | RF02, RF06, RF08       | **Must**                 |
+| **RNF03**     | O sistema deve ser implementado com suporte à concorrência e alta performance, utilizando a linguagem Go para otimizar tarefas paralelas, como geração de relatórios e processamento de documentos. | RF02, RF04, RF05, RF08 | **Could**                |
+| **RNF04**     | O sistema deve garantir alta disponibilidade (99,9%) para que os usuários possam acessá-lo a qualquer momento, especialmente em prazos críticos.                                                    | RF05, RF03             | **Must**                 |
+| **RNF05**     | As notificações de prazos devem ser entregues com latência inferior a 5 minutos, via e-mail e/ou push notification.                                                                                 | RF05                   | **Should**               |
+| **RNF06**     | O sistema deve permitir anotações com suporte a texto negrito, listas, links e salvamento automático a cada 30 segundos.                                                                            | RF06                   | **Could**                |
+| **RNF07**     | O compartilhamento de documentos entre profissionais deve respeitar permissões e criptografia ponta a ponta.                                                                                        | RF07, RF09, RF10       | **Must**                 |
+| **RNF08**     | A análise com inteligência artificial deve processar documentos com tempo de resposta inferior a 10 segundos por arquivo e exibir trechos destacados com precisão baseada em NLP jurídico.          | RF08                   | **Won’t** |
+| **RNF09**     | O sistema deve oferecer um painel de controle para o administrador gerenciar permissões de forma granular, com logs de acesso e histórico de alterações.                                            | RF09                   | **Must**                 |
+| **RNF10**     | Os relatórios exportados devem seguir padrões visuais consistentes como layout, cores, logotipo e estar disponíveis nos formatos PDF e DOCX.                                                        | RF04                   | **Should**               |
 
- Identificador | Descrição | Depende de |
-|---------------|-----------|------------|
-| **RNF01** | O sistema deve integrar-se com APIs governamentais para validação e atualização automática de dados processuais. | RF01, RF03 |
-| **RNF02** | O sistema deve utilizar um banco de dados não relacional (NoSQL) para armazenar documentos, anotações e metadados de forma escalável. | RF02, RF06, RF08 |
-| **RNF03** | O sistema deve ser implementado com suporte à concorrência e alta performance, utilizando a linguagem Go para otimizar tarefas paralelas, como geração de relatórios e processamento de documentos. | RF02, RF04, RF05, RF08 |
-| **RNF04** | O sistema deve garantir alta disponibilidade (99,9%) para que os usuários possam acessá-lo a qualquer momento, especialmente em prazos críticos. | RF05, RF03 |
-| **RNF05** | As notificações de prazos devem ser entregues com latência inferior a 5 minutos, via e-mail e/ou push notification. | RF05 |
-| **RNF06** | O sistema deve permitir anotações com suporte a texto negrito, listas, links e salvamento automático a cada 30 segundos. | RF06 |
-| **RNF07** | O compartilhamento de documentos entre profissionais deve respeitar permissões e criptografia ponta a ponta. | RF07, RF09, RF10 |
-| **RNF08** | A análise com inteligência artificial deve processar documentos com tempo de resposta inferior a 10 segundos por arquivo e exibir trechos destacados com precisão baseada em NLP jurídico. | RF08 |
-| **RNF09** | O sistema deve oferecer um painel de controle para o administrador gerenciar permissões de forma granular, com logs de acesso e histórico de alterações. | RF09 |
-| **RNF10** | Os relatórios exportados devem seguir padrões visuais consistentes como layout, cores, logotipo e estar disponíveis nos formatos PDF e DOCX. | RF04 |
 
 ***2.3. Perguntas***
 
