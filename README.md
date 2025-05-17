@@ -102,7 +102,25 @@ Com o Evidence, os profissionais cadastram os dados no sistema e, em poucos minu
 
 ***2.3. Perguntas***
 
-*<Arquivo com as perguntas realizadas na entrevista .>*
+Em que período da faculdade você está atualmente?
+
+Já participou de estágios, núcleos de prática jurídica ou teve contato com casos reais?
+
+Quais são suas maiores dificuldades ao analisar processos ou documentos jurídicos?
+
+Você sente que perde muito tempo tentando identificar as informações importantes em um processo?
+
+Você utiliza alguma ferramenta digital para estudar ou organizar documentos jurídicos? Quais?
+
+Já usou ou ouviu falar em inteligência artificial aplicada ao Direito? O que acha disso?
+
+Você usaria um sistema que analisa automaticamente processos e destaca as partes mais relevantes?
+
+Que tipo de informação esse sistema deveria destacar para ser realmente útil para você?
+
+O que faria você confiar em uma ferramenta jurídica com inteligência artificial?
+
+Você teria alguma preocupação ética ou legal em usar IA para lidar com processos judiciais?
 
 ***2.4. Entrevista***
 
