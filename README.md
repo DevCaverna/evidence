@@ -141,11 +141,25 @@ Quais informações devem ser imprescindivelmente ocultadas nos casos, considera
 
 ***2.5. Histórias do Usuário***
 
-*<Imagem, arquivo (PDF), link com as Histórias de Usuário.>*
+| História de Usuário | Objetivo |
+|---------------------|----------|
+| Como advogado, quero cadastrar informações básicas de um processo jurídico para que eu possa iniciar o acompanhamento do caso no sistema. | Iniciar o acompanhamento de processos. |
+| Como advogado, quero fazer upload de documentos relacionados a um processo nos formatos aceitos, para que os envolvidos tenham acesso à documentação necessária. | Garantir o acesso à documentação do processo. |
+| Como advogado, quero consultar todos os processos cadastrados com filtros por status, para que eu possa localizar rapidamente os casos conforme a situação atual. | Localizar casos com agilidade. |
+| Como advogado, quero relatórios automáticos com padrões em processos jurídicos, para que eu possa tomar decisões estratégicas. | Apoiar a tomada de decisões estratégicas. |
+| Como advogado, quero receber notificações quando prazos processuais estiverem próximos de vencer, para que eu não perca nenhum prazo importante. | Evitar perda de prazos processuais. |
+| Como advogado, quero adicionar anotações personalizadas a um processo, para que eu possa registrar estratégias ou informações relevantes. | Registrar informações e estratégias no processo. |
+| Como perito judicial, quero compartilhar documentos específicos com outros profissionais do mesmo processo, para que possamos colaborar de forma eficiente. | Facilitar a colaboração entre profissionais. |
+| Como advogado, quero que a inteligência artificial analise documentos jurídicos e destaque trechos relevantes, para que eu ganhe tempo na leitura e análise. | Economizar tempo com análise de documentos. |
+| Como administrador, quero gerenciar as permissões de acesso dos usuários, para que apenas pessoas autorizadas possam acessar determinadas funcionalidades. | Garantir segurança e controle de acesso. |
+| Como advogado, quero ler e aprovar ações realizadas por estagiários, para que eu tenha controle e segurança sobre o trabalho. | Controlar e supervisionar ações de estagiários. |
+| Como advogado, quero que o sistema esteja disponível 99,9% do tempo, para que eu possa acessá-lo mesmo em prazos críticos. | Ter acesso confiável ao sistema. |
+| Como administrador, quero gerenciar permissões e acessar históricos de ações, para que eu tenha controle e rastreabilidade sobre o uso do sistema. | Manter rastreabilidade e segurança no uso do sistema. |
+| Como advogado, quero receber notificações de prazos em até 5 minutos, para que possa reagir rapidamente a eventos importantes. | Reagir com agilidade a eventos urgentes. |
 
 ***2.6. Diagramas de Caso de Uso e Especificações***
 
-*<Imagem, arquivo (PDF), link com Diagrama de Caso de Uso.>*
+![Diagrama de Caso de Uso](assets/DiagramaCasoDeUso.png)
 
 ***2.7. Diagramas de Atividades***
 
