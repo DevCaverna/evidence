@@ -163,7 +163,7 @@ Quais informações devem ser imprescindivelmente ocultadas nos casos, considera
 
 ***2.7. Diagramas de Atividades***
 
-*<Imagem, arquivo (PDF), link com Diagrama de Atividades.>*
+![Diagrama de sequencia](https://github.com/user-attachments/assets/3d467957-a2fb-4dde-aa4c-e41f8f7f56e6)
 
 ***2.8. Matrizes de Rastreabilidade***
 
