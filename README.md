@@ -166,8 +166,29 @@ Quais informações devem ser imprescindivelmente ocultadas nos casos, considera
 ![Diagrama de sequencia](https://github.com/user-attachments/assets/3d467957-a2fb-4dde-aa4c-e41f8f7f56e6)
 
 ***2.8. Matrizes de Rastreabilidade***
+| ID Req  | Descrição do Requisito                                                                                                  | ID Teste  | Descrição do Teste                                                       | Status do Teste |
+|---------|---------------------------------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------|------------------|
+| RF01    | Cadastro de informações básicas de um processo jurídico                                                                  | TEST-001  | Verificar se é possível cadastrar número, partes e data de abertura        | Passou           |
+| RF02    | Upload de documentos (PDF, DOCX, JPEG) pelo perito judicial                                                              | TEST-002  | Verificar se os arquivos são aceitos e salvos corretamente                 | Passou           |
+| RF03    | Consulta de processos com filtros (ativo, arquivado, concluído)                                                          | TEST-003  | Validar funcionalidade de filtro e exibição de lista                       | Passou           |
+| RF04    | Geração de relatórios automáticos com padrões jurídicos                                                                  | TEST-004  | Validar criação e conteúdo dos relatórios automáticos                      | Passou           |
+| RF05    | Notificações de prazos processuais próximos                                                                              | TEST-005  | Verificar recebimento de notificações em casos com prazo próximo           | Passou           |
+| RF06    | Adição de anotações personalizadas                                                                                       | TEST-006  | Inserir anotações e verificar salvamento                                  | Passou           |
+| RF07    | Compartilhamento de documentos entre profissionais                                                                       | TEST-007  | Compartilhar documento e validar permissões                               | Passou           |
+| RF08    | IA analisa documentos e destaca trechos relevantes                                                                       | TEST-008  | Verificar se a IA identifica corretamente os trechos importantes           | Não testado      |
+| RF09    | Gerenciamento de permissões de acesso pelo administrador                                                                 | TEST-009  | Criar usuários com permissões diferentes e verificar controle de acesso    | Passou           |
+| RF10    | Leitura e aprovação de ações de estagiários pelo advogado                                                                | TEST-010  | Validar aprovação de ações realizadas por perfil estagiário                | Passou           |
+| RNF01   | Integração com APIs governamentais                                                                                       | TEST-011  | Simular retorno de API externa e validar atualização de dados              | Passou           |
+| RNF02   | Uso de banco de dados NoSQL para documentos e anotações                                                                  | TEST-012  | Verificar persistência e consulta em banco NoSQL                           | Passou           |
+| RNF03   | Implementação com concorrência e alta performance com Go                                                                 | TEST-013  | Medir desempenho e paralelismo em tarefas pesadas                          | Parcialmente OK  |
+| RNF04   | Alta disponibilidade (99,9%)                                                                                              | TEST-014  | Simular múltiplos acessos e validar uptime                                 | Em execução      |
+| RNF05   | Notificações entregues com latência inferior a 5 minutos                                                                 | TEST-015  | Cronometrar tempo entre evento e notificação recebida                      | Passou           |
+| RNF06   | Anotações com negrito, listas, links e salvamento automático                                                             | TEST-016  | Testar formatação e autosave a cada 30s                                    | Passou           |
+| RNF07   | Compartilhamento com criptografia ponta a ponta e respeito às permissões                                                 | TEST-017  | Testar se usuários não autorizados conseguem visualizar documentos         | Passou           |
+| RNF08   | IA deve processar arquivo em menos de 10s e destacar trechos com NLP jurídico                                            | TEST-018  | Medir tempo de resposta e qualidade do destaque da IA                      | Não testado      |
+| RNF09   | Painel de controle com logs de acesso e histórico de alterações                                                          | TEST-019  | Validar acesso aos logs e exibição de alterações                           | Passou           |
+| RNF10   | Exportação de relatórios com layout, logotipo, e formatos PDF/DOCX                                                       | TEST-020  | Testar exportação em ambos formatos com layout correto                     | Passou           |
 
-*<Imagem, arquivo (PDF), link com Matriz de Rastreabilidade.>*
 
 ***2.9. Protótipos***
 
