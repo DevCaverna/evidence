@@ -137,7 +137,7 @@ Quais informações devem ser imprescindivelmente ocultadas nos casos, considera
 
 ***2.4. Entrevista***
 
-![Entrevista](https://drive.google.com/uc?export=view&id=1KwKKZjJkQJ_0BJBbh0l0El9qQsv6_5AH)
+[📄 Ver Entrevista no Google Drive](https://drive.google.com/file/d/1KwKKZjJkQJ_0BJBbh0l0El9qQsv6_5AH/view)
 
 ***2.5. Histórias do Usuário***
 
